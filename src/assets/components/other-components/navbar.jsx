@@ -3,7 +3,7 @@ import { Box, Button, Flex, Spacer, Text, Stack} from "@chakra-ui/react"
 export const Navbar = () =>{
     return(
         <>
-            <Flex w={"100vw"} fontWeight={"medium"} p={"4"}>
+            <Flex w={"100vw"} fontWeight={"medium"} p={"4"} px={'20'}>
                 <Box mr={"50%"}>
                     <Text fontSize={"1.8rem"}>Buddy App</Text>
                 </Box>
