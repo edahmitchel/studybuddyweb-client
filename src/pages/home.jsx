@@ -120,7 +120,7 @@ const Body = () =>{
                     <Image src={yolo17}></Image>
                 </Box>
             </Flex>
-            <Flex  width={'100%'} align={'center'} direction={'row'} rounded={'xl'} p={'20'} mt={'200px'}>
+            <Flex  width={'100%'} align={'center'} direction={'row'} rounded={'xl'} p={'20'} mt={'50px'}>
                 <Text width={'50%'} fontSize={'2.5rem'} fontWeight={'semibold'}>
                     Hey! Follow us on Social Media so you don't miss any info
                 </Text>
