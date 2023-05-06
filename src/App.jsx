@@ -8,7 +8,7 @@ function App() {
  
   return (
     <>
-     <div className=''>
+     <div className='body'>
       <Router>
         <Navbar></Navbar>
         <Routes>
