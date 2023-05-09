@@ -1,0 +1,507 @@
+.App{
+    margin-left: 5em;
+    margin-top: 2em;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.flex{
+    overflow-x: fixed;
+    width: 90vw;
+}
+#welcome{
+    font-weight: 500;
+    margin-bottom: -2em;
+}
+Input{
+ width: 25em;
+ height: 2.5em;
+ padding-left: 0.5em;
+ border-radius: 0.4em;
+ border: none;
+ background: #D9D9D9;   
+}
+Input:focus{
+    outline: none;
+}
+Input:required:focus:valid{
+    border-bottom: 2px solid yellowgreen;
+}
+Input:required:focus:invalid{
+    border-bottom: 2px solid red;
+
+}
+/* Input:{
+} */
+#button{
+    width: 25.6em;
+    height: 2.5em;
+    background-color: #3751E4;
+    color: #fff;
+}
+#button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+#buddy{
+    margin-bottom: -0.4em;
+}
+#sign{
+    font-weight: 500;
+
+}
+label{
+    color: #737171;
+    font-size: 0.8em;
+}
+.flex{
+    gap:7em;
+}
+#title{
+    position: absolute;
+    right: 12.5em;
+    top: 3em;
+    
+}
+#goals{
+    position: absolute;
+    right: 25em;
+    top: 13em;
+    margin-bottom: 1em;
+
+}
+#about{
+    right: 7.2em;
+    position: absolute;
+    width: 25em;
+    height: 150px;
+    top: 8em;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1em;
+}
+#style{
+    margin-top: -2em;
+    width: 70em;
+    height: 40em;
+    margin-right: -3.55em;
+}
+#already{
+    color: #737171;
+    font-size: 0.7em;
+    text-align: center;
+}
+#faq{
+    color: #959393;
+    text-align: center;
+    font-size: 0.6em;
+    margin-top: 4em;
+
+}
+#log{
+    text-decoration: none;
+    color: #3751E4;
+}
+#log:hover{
+    opacity: 0.8;
+}
+ul{
+    position: absolute;
+    right: 13em;
+    top: 16em;
+}
+li{
+    margin-top: 2.05em;
+
+}
+.about{
+    color: #FFFFFF;
+}
+#svg{
+    position: absolute;
+    width: 359px;
+    margin-top: 21em;
+    right: 19em;
+}
+/* Log in */
+
+.login{
+    gap:7em;
+    overflow-x: fixed;
+    width: 90vw;
+}
+.log{
+    margin-top: 4em;
+}
+.logInput{
+    margin: 0.2em 0.2em 1em;
+}
+#radio{
+    width: 0.8em;
+    /* position: absolute; */
+    margin-top: -0.6em;
+    accent-color: #3751E4;
+}
+#radio:hover{
+    cursor: pointer;
+}
+
+#remember{
+    font-size: 0.7em;
+    margin-top: 0em; 
+}
+#forgot{
+    position: absolute;
+    font-size: 0.7em;
+    margin-left: 23em;
+    border: none;
+    background: transparent;
+    margin-top: -13.7em;
+    color: #3751E4;
+    
+}
+#forgot:hover{
+    cursor: pointer;
+}
+#logbutton{
+    width: 25.6em;
+    height: 2.5em;
+    background-color: #3751E4;
+    color: #fff;
+    margin-top: 1em;
+}
+#logbutton:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+#dont{
+    text-align: center;
+    margin-top: 0.5em;
+    color: #959393;
+    font-weight: light;
+}
+#dontSign{
+    color: #3751E4;
+    text-decoration: none;
+}
+#dontSign:hover{
+    opacity: 0.8;
+}
+#logFaq{
+    color: #959393;
+    text-align: center;
+    margin-top: 6em;
+    font-size: 0.6em;
+}
+#svg2{
+    position: absolute;
+    width: 200px;
+    margin-top: 24em;
+    right: 25em;
+}
+/* Modal */
+.Modal{
+    background-color: #fff;
+    border-radius: 1em;
+    border: 1px solid #959393;
+    position: absolute;
+    width: 27em;
+    padding: 7em 3em 3em 3em;
+    align-content: center;
+    margin-top: -27em;
+    height: 20em;
+}
+#x{
+    position: absolute;
+    color: #737171;
+    margin-top: -3.5em;
+    background: transparent;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bolder;
+    right: 1em;
+}
+#forP{
+    position: absolute;
+    color: #737171;
+    margin-top: -3.5em;
+}
+.ModalInput{
+    width: 30em;
+    /* background-color: #959393; */
+    margin-top: 0.5em;
+    height: 3em;
+}
+.ModalInput:disabled{
+    background-color: #f3f2f2;
+}
+#ModalEmail{
+    margin-bottom: 3em;
+}
+#Modalbutton{
+    width: 30.6em;
+    background-color: #3751E4;
+    color: #fff;
+}
+@media only screen and (max-width:1270px){
+    .login{
+        gap:5em;
+    }
+    .flex{
+        gap:5em;
+    }
+    .Modal{
+        width: 25em;
+    }
+}
+@media only screen and (max-width:1169px){
+   
+    #title{
+        right: 8.5em;
+        
+    }
+    #goals{
+        right: 19em;
+    
+    }
+    #about{
+        right: 3.2em;
+        width: 22em;
+    }
+    ul{
+        right: 6em;
+    }
+    #svg2{
+        right: 20em;
+    }
+ 
+}
+@media only screen and (max-width:1169px){
+   
+    #title{
+        right: 8.5em;
+        
+    }
+    #goals{
+        right: 19em;
+    
+    }
+    #about{
+        right: 3.2em;
+        width: 22em;
+    }
+    ul{
+        right: 6em;
+    }
+    #svg2{
+        right: 20em;
+    }
+    #svg{
+        right: 18em;
+    }
+}
+@media only screen and (max-width:1083px) {
+    
+    #title{
+        right: 3em;
+        
+    }
+    #goals{
+        right: 14.5em;
+    
+    }
+    #about{
+        right: 0.2em;
+        width: 20em;
+    }
+    ul{
+        right: 1em;
+    }
+    #svg2{
+        right: 12em;
+    }
+    #svg{
+        right: 10em;
+    }
+}
+@media only screen and (max-width:995px) {
+    .Modal{
+        margin-left: -3em;
+    }
+    .login{
+        gap: 3.5em;
+    }
+    .flex{
+        gap:3.5em;
+    }
+    #title{
+        right: 2em;
+        
+    }
+    #goals{
+        right: 13em;
+    
+    }
+    #about{
+        right: -2em;
+        width: 20em;
+    }
+    ul{
+        right: -1em;
+    }
+    #svg2{
+        right: 12em;
+    }
+    #svg{
+        right: 9em;
+    }
+}
+@media only screen and (max-width:912px){
+    #title{
+        right: -1em;
+        
+    }
+    #goals{
+        right: 8.5em;
+    
+    }
+    #about{
+        right: -7em;
+        width: 20em;
+    }
+    ul{
+        right: -5.9em;
+    }
+    #svg2{
+        right: 6em;
+    }
+    #svg{
+        right: 4em;
+    }
+}
+@media only screen and (max-width:824px){
+    #title{
+        right: -5em;
+        
+    }
+    #goals{
+        right: 3.5em;
+    
+    }
+    #about{
+        right: -12.5em;
+        width: 19em;
+    }
+    ul{
+        right: -12em;
+    }
+    #svg2{
+        right: 6em;
+    }
+    #svg{
+        right: -2em;
+    }
+}
+@media only screen and (max-width:732px) {
+    Img{
+        display: none;
+        
+    }
+     
+    .App{
+        overflow-x: hidden;
+        padding-right: -5em;
+        overflow-x: fixed;
+    }
+    .flex{
+        margin-right: -4em;
+        width: 80vw;
+    }
+    #side{
+        display: none;
+    }
+}
+@media only screen and (max-width:624px){
+    .Modal{
+        width: 18em;
+        left: 6em;
+    }
+    .ModalInput{
+        width: 20em;
+    }
+    #Modalbutton{
+        width: 20.7em;
+
+    }
+}
+@media only screen and (max-width:508px){
+    .App{
+        overflow-x: hidden;
+        /* padding-right: -5em; */
+        margin-left: 2em;
+        overflow-x: fixed;
+    }
+    .Modal{
+        width: 16em;
+        left: 5em;
+    }
+    .ModalInput{
+        width: 20em;
+    }
+    #Modalbutton{
+        width: 20.7em;
+
+    }
+}
+@media only screen and (max-width:452px){
+    .App{
+       margin-left: 1em;
+    }
+    Input{
+        width: 20em;
+       }
+       #logbutton{
+        width: 20.6em
+    }
+    #button{
+        width: 20.6em;
+    }
+    #forgot{
+        margin-left: 16em;
+    }
+}
+@media only screen and (max-width:348px){
+    Input{
+        width: 15em;
+       }
+       #logbutton{
+        width: 15.6em
+    }
+    #button{
+        width: 15.6em;
+    }
+    #forgot{
+        margin-left: 10em;
+    }
+}
+@media only screen and (max-width:268px){
+    Input{
+        width: 10em;
+       }
+       #logbutton{
+        width: 10.6em
+    }
+    #button{
+        width: 10.6em;
+    }
+    #forgot{
+        font-size: 0.5em;
+        margin-top: -17em;
+        margin-left: 9em;
+    }
+    #dont{
+        font-size: 0.5em;
+    }
+}
